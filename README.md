@@ -1,2 +1,3 @@
 # ITMP.github.io
-IT og medieproduksjon
+
+Kildekode for [skolenettisden](https://handerre.github.io/ITMP.github.io/).
