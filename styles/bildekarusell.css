@@ -18,9 +18,9 @@ height: 700px; /* Ny høyde */
 
 @keyframes example /* nøkkelbilder/keyframes som skal brukes i animasjonen ved navn example */ 
 {
-20%   {background-image: url(../Bilder/dreams.png);}
-50%  {background-image: url(../Bilder/Fjell.png);}
-75%   {background-image: url(../Bilder/smoke.png);}
-100%  {background-image: url(../Bilder/Læringsgropen.png);}
+20%   {background-image: url(../assets/dreams.png);}
+50%  {background-image: url(../assets/fjell.png);}
+75%   {background-image: url(../assets/smoke.png);}
+100%  {background-image: url(../assets/læringsgropen.png);}
 }
 

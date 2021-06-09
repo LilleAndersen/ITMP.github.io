@@ -7,7 +7,7 @@
 <title>Startsiden - ITM - konseptutvikling og programmering </title> <!-- Tittel på HTML filen min i nettleservinduet-->
 
 <!-- Koblingen til .css filen (stilarket) mitt, og andre stilark, eksterne bibliotek, script, mm. - for at siden skal være mest mulig fleksibel og brukervennlig -->
-<link href="../CSS/minstil.css" rel="stylesheet" type="text/css">
+<link href="../styles/main.css" rel="stylesheet" type="text/css">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
