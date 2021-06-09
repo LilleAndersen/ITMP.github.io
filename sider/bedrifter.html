@@ -26,38 +26,7 @@
                 &#128279; <a href="https://scratch.mit.edu"target="_blank">Scratch</a>
                 &#128279; <a href="https://ff.ndla.no/subjects/subject:f248e20c-3131-495e-a759-c71678430d5f?fbclid=IwAR2hesczpV9Ul4mkZcQBlXHamfPphH17lub0oDktza0VXdWvw1VwNJTG-9I" target="_blank">NDLA</a>
             </div>
-            <div id="nedtelling"> <!-- Script for nedtelling av tid. Varier på de ulike siden i forhold til de uliuke ferien i løpet av et skoleår-->
-                <script>
-                    // Setter klokkelsett og dato som vi teller ned til
-                    var countDownDate = new Date("Jun 18, 2021 12:00:00").getTime();
-
-                    // Oppdaterer nedtellingen hvert sekund
-                    var x = setInterval(function() {
-
-                        // Henter dagent dato og klokkeslett
-                        var now = new Date().getTime();
-
-                        // Finner avstanden mellom dagens dato og klokkelsett og den vi teller ned til
-                        var distance = countDownDate - now;
-
-                        // kalkuleringen av dager, timer, minutter og sekunder
-                        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-                        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-                        // Viser resultatet i elementet id=demo
-                        document.getElementById("nedtelling").innerHTML = "Antall dager til sommerferien: "+ days + "d " + hours + "h "
-                            + minutes + "m " + seconds + "s ";
-
-                        // Når nedtellingen er gjennomført, så vis følgende tekst
-                        if (distance < 0) {
-                            clearInterval(x);
-                            document.getElementById("nedtelling").innerHTML = "EXPIRED";
-                        }
-                    }, 1000);
-                </script>
-            </div>
+            <div id="nedtelling"></div> <!-- Script for nedtelling av tid. Varier på de ulike siden i forhold til de uliuke ferien i løpet av et skoleår-->
 
             <div class="header">
                 <h1>Konseptutvikling og programmering </h1>
@@ -152,5 +121,7 @@
                 </script>
             </div>
         </div>
+
+        <script src="/scripts/sommerferie.js"></script>
     </body>
 </html>
