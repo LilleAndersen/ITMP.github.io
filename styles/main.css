@@ -3,6 +3,7 @@ body
 {
     color: black;
     font-family: "Lucida Sans", sans-serif;
+
     background-image: linear-gradient(to right, lightblue, #33b5e5);
 }
 
@@ -265,6 +266,7 @@ h1
     text-align: left;
     float: start;
 }
+
 
 /* Stil for footer */
 .footer
