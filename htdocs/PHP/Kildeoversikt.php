@@ -19,7 +19,7 @@
 
 <body> <!-- Hode, naturlig del av HTML, standarden. Brukes til overordnet informasjon, koblinger mm -->
   <div class="main"> <!-- Hovedklasse, den som definerer overordnet for bruk av struktur på siden - hvordan feks grids er brukt på mine sider -->
-    <div class="meny_topp"> <!-- Toppmenyen min -->
+    <div class="meny-topp"> <!-- Toppmenyen min -->
         &#128279; <a href="http://www.youtube.com/channel/UCFB7G96aSKQjiRxnOyjffuQ"target="_blank">Youtube</a>
         &#128279; <a href="https://www.w3schools.com/html/default.asp"target="_blank">HTML</a>
         &#128279; <a href="https://www.w3schools.com/css/default.asp"target="_blank">CSS</a>
@@ -68,7 +68,7 @@
         </div>
     
 
-<div class="meny_venstre">
+<div class="meny-venstre">
  
   <div class="panel-group" id="accordion">
     
