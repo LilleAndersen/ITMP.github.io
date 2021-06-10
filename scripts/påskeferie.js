@@ -1,9 +1,9 @@
 // Sett tidspunkt som vi teller ned til
-var countDownDate = new Date("Mar 26, 2021 12:00:00").getTime();
+const countDownDate = new Date("Mar 26, 2021 12:00:00").getTime();
 
 // Oppdater nedtellingen hvert sekund
-var x = setInterval(function() {
-
+const x = setInterval(function ()
+{
     // Hent nåværende tidspunkt
     var now = new Date().getTime();
 
@@ -17,7 +17,7 @@ var x = setInterval(function() {
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // Vis resultat i element med ID 'nedtelling'
-    document.getElementById("nedtelling").innerHTML = "Antall dager til påskeferie: "+ days + "d " + hours + "h "
+    document.getElementById("nedtelling").innerHTML = "Antall dager til påskeferie: " + days + "d " + hours + "h "
         + minutes + "m " + seconds + "s ";
 
     // Vis 'EXPIRED' om resultat er negativt
