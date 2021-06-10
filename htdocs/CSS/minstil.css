@@ -107,7 +107,7 @@ h1 {
 	to {color:white;}
   }
 /* Definerer meny_topp taggen/griden*/
-.meny_topp{
+.meny-topp{
 	grid-column:1/4;
 	text-align: left;
 	font-size: 14px;
@@ -120,7 +120,7 @@ h1 {
 
 
 /* Definerer meny_venstre taggen/griden*/
-.meny_venstre{
+.meny-venstre{
 	grid-column: 1/2;
 	border-radius: 25px; /*Avrunnede hjørner */
 	font-size: 14px;
@@ -201,7 +201,7 @@ h1 {
 	font-size: 16px;
 	}
 /* Definerer hovedvindu taggen/griden til visning av filmer da denne er litt annerledes*/
-.hovedvindu_filmer{
+.hovedvindu-film{
 	grid-column: 2/4;
 	/*grid-row: auto;*/	
 	border-radius: 25px; /*Avrunnede hjørner */
@@ -217,7 +217,7 @@ h1 {
 	float: inline-start;
 }
 /* Definerer hovedvindu taggen/griden til visning av filmer, da denne er litt annerledes*/
-.hovedvindu_filmer1{
+.hovedvindu-film1{
 	grid-column: 4/6;
 	/*grid-row: auto;*/
 	border-radius: 25px; /*Avrunnede hjørner */

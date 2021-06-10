@@ -118,7 +118,7 @@ h1 {
 	to {color:white;}
   }
 /* Definerer meny_topp taggen/griden*/
-.meny_topp{
+.meny-topp{
 	grid-column: 1/3;
 
 	text-align: left;
@@ -129,7 +129,7 @@ h1 {
 
 
 /* Definerer meny_venstre taggen/griden*/
-.meny_venstre{
+.meny-venstre{
 	grid-column: 1/2;
 	border-radius: 25px; /*Avrunnede hjørner */
 	font-size: 14px;
