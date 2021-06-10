@@ -1,99 +1,99 @@
 /* Stil for hele siden */
 body
 {
-	color: black;
-	font-family: "Lucida Sans", sans-serif;
-	background-image: linear-gradient(to right, lightblue, #33b5e5);
+    color: black;
+    font-family: "Lucida Sans", sans-serif;
+    background-image: linear-gradient(to right, lightblue, #33b5e5);
 }
 
 img
 {
-	max-height: 200px;
-	max-width: 150px;
+    max-height: 200px;
+    max-width: 150px;
 }
 
 /* Stil for bilder */
 .img
 {
-	margin: 5px;
-	max-height: 360px;
-	max-width: 250px;
+    margin: 5px;
+    max-height: 360px;
+    max-width: 250px;
 }
 
 /* Sett scrollbar på bilder ved lite vindu */
 .bilde
 {
-	overflow: auto;
+    overflow: auto;
 }
 
 /* Stil for nedtelling */
 #nedtelling
 {
-	grid-column: 4/6;
-	margin-top: 10px;
-	font-size: 14px;
-	text-align: right;
-	margin-right: 5px;
+    grid-column: 4/6;
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: right;
+    margin-right: 5px;
 }
 
 /* Stil for iframes */
 .iframe1
 {
-	width: 100%;
-	height: 1000px;
-	border-radius: 25px; /* Runde hjørner */
-	background-image: linear-gradient(to right, lightblue, #33b5e5);
+    width: 100%;
+    height: 1000px;
+    border-radius: 25px; /* Runde hjørner */
+    background-image: linear-gradient(to right, lightblue, #33b5e5);
 }
 
 iframe
 {
-	min-width: 20px;
-	max-width: 150px;
-	max-height: 75px;
-	margin-right: 5px;
+    min-width: 20px;
+    max-width: 150px;
+    max-height: 75px;
+    margin-right: 5px;
 }
 
 /* Sett scrollbar på videoer ved lite vindu */
 .film
 {
-	overflow: auto;
+    overflow: auto;
 }
 
 /* Stil for grids på overordnet nivå */
 .main
 {
-	display: grid;
-	grid-row-gap: 5px;  /* Mellomrom mellom grids vertikalt */
-	text-align: center; /* Tekst skal midtstilles som standard */
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* Deler vindu i 5 like store deler - horisontalt */
+    display: grid;
+    grid-row-gap: 5px;  /* Mellomrom mellom grids vertikalt */
+    text-align: center; /* Tekst skal midtstilles som standard */
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; /* Deler vindu i 5 like store deler - horisontalt */
 }
 
 /* Stil for header */
 .header
 {
-	display: grid;
-	grid-column:1/6;
-	border-radius: 25px; /* Runde hjørner */
+    display: grid;
+    grid-column:1/6;
+    border-radius: 25px; /* Runde hjørner */
 }
 
 /* Animasjon for h1 tag */
 h1
 {
-	position: relative;
-	animation-timing-function: linear;
-	animation: example_1 15s infinite;
-	animation-direction: alternate-reverse;
+    position: relative;
+    animation-timing-function: linear;
+    animation: example_1 15s infinite;
+    animation-direction: alternate-reverse;
 }
 
 /* Bevegelse i animasjon for h1 tag */
 @keyframes mymove
 {
-	from
+    from
     {
         right: 0;
     }
 
-	to
+    to
     {
         right: 75px;
     }
@@ -101,12 +101,12 @@ h1
 
 @keyframes example_1
 {
-	from
+    from
     {
         color:black;
     }
 
-	to
+    to
     {
         color:white;
     }
@@ -115,235 +115,235 @@ h1
 /* Stil for toppmeny */
 .meny_topp
 {
-	grid-column:1/4;
-	text-align: left;
-	font-size: 14px;
-	color: black;
-	padding: 10px;
-	border-radius: 25px; /* Runde hjørner */
+    grid-column:1/4;
+    text-align: left;
+    font-size: 14px;
+    color: black;
+    padding: 10px;
+    border-radius: 25px; /* Runde hjørner */
 }
 
 /* Stil for meny_venstre */
 .meny_venstre
 {
-	grid-column: 1/1;
-	border-radius: 25px; /*Runde hjørner */
-	font-size: 14px;
-	text-align: left;
-	text-indent: 20px;
-	padding: 10px;
-	background-image: linear-gradient(to right, lightblue, #33b5e5);
+    grid-column: 1/1;
+    border-radius: 25px; /*Runde hjørner */
+    font-size: 14px;
+    text-align: left;
+    text-indent: 20px;
+    padding: 10px;
+    background-image: linear-gradient(to right, lightblue, #33b5e5);
 }
 
 .panel.body
 {
-	background-image: linear-gradient(to right, lightblue, #33b5e5);
-	border: none;
+    background-image: linear-gradient(to right, lightblue, #33b5e5);
+    border: none;
 }
 
 .panel-group
 {
-	background-image: linear-gradient(to right, lightblue, #33b5e5);
-	border: none;
+    background-image: linear-gradient(to right, lightblue, #33b5e5);
+    border: none;
 }
 
 .panel.panel-default
 {
-	background-image: linear-gradient(to right, lightblue, #33b5e5);
-	border: none;
+    background-image: linear-gradient(to right, lightblue, #33b5e5);
+    border: none;
 }
 
 .panel-title
 {
-	padding: 5px;
-	background-image: linear-gradient(to right, lightblue, #33b5e5);
-	border: none;
+    padding: 5px;
+    background-image: linear-gradient(to right, lightblue, #33b5e5);
+    border: none;
 }
 
 .panel-heading
 {
-	background-image: linear-gradient(to right, lightblue, #33b5e5);
-	border: none;
+    background-image: linear-gradient(to right, lightblue, #33b5e5);
+    border: none;
 }
 
 /* Stil for hovedvindu */
 .hovedvindu
 {
-	grid-column: 2/6;
-	border-radius: 25px; /* Runde hjørner */
-	display: inline-block;
-	min-height: 500px;
-	padding: 15px;
-	margin-bottom: 7px;
-	margin-left: 15px;
-	color:black;
-	text-align: left;
-	background-repeat:repeat;
-	font-size: 16px;
+    grid-column: 2/6;
+    border-radius: 25px; /* Runde hjørner */
+    display: inline-block;
+    min-height: 500px;
+    padding: 15px;
+    margin-bottom: 7px;
+    margin-left: 15px;
+    color:black;
+    text-align: left;
+    background-repeat:repeat;
+    font-size: 16px;
 }
 
 .hv
 {
-	grid-column: 2/3;
-	border-radius: 25px; /* Runde hjørner */
-	display: inline-block;
-	min-height: 500px;
-	padding: 15px;
-	margin-bottom: 7px;
-	margin-left: 15px;
-	color:black;
-	text-align: left;
-	font-size: 16px;
+    grid-column: 2/3;
+    border-radius: 25px; /* Runde hjørner */
+    display: inline-block;
+    min-height: 500px;
+    padding: 15px;
+    margin-bottom: 7px;
+    margin-left: 15px;
+    color:black;
+    text-align: left;
+    font-size: 16px;
 }
 
 .hv1
 {
-	grid-column: 3/4;
-	border-radius: 25px; /* Runde hjørner */
-	display: inline-block;
-	min-height: 500px;
-	padding: 15px;
-	margin-bottom: 7px;
-	margin-left: 15px;
-	color:black;
-	text-align: left;
-	font-size: 16px;
+    grid-column: 3/4;
+    border-radius: 25px; /* Runde hjørner */
+    display: inline-block;
+    min-height: 500px;
+    padding: 15px;
+    margin-bottom: 7px;
+    margin-left: 15px;
+    color:black;
+    text-align: left;
+    font-size: 16px;
 }
 
 .hv2
 {
-	grid-column: 4/5;
-	border-radius: 25px; /* Runde hjørner */
-	display: inline-block;
-	min-height: 500px;
-	padding: 15px;
-	margin-bottom: 7px;
-	margin-left: 15px;
-	color:black;
-	text-align: left;
-	background-repeat:repeat;
-	font-size: 16px;
+    grid-column: 4/5;
+    border-radius: 25px; /* Runde hjørner */
+    display: inline-block;
+    min-height: 500px;
+    padding: 15px;
+    margin-bottom: 7px;
+    margin-left: 15px;
+    color:black;
+    text-align: left;
+    background-repeat:repeat;
+    font-size: 16px;
 }
 
 .hv3
 {
-	grid-column: 5/6;
-	border-radius: 25px; /* Runde hjørner */
-	display: inline-block;
-	min-height: 500px;
-	padding: 15px;
-	margin-bottom: 7px;
-	margin-left: 15px;
-	color:black;
-	text-align: left;
-	background-repeat:repeat;
-	font-size: 16px;
+    grid-column: 5/6;
+    border-radius: 25px; /* Runde hjørner */
+    display: inline-block;
+    min-height: 500px;
+    padding: 15px;
+    margin-bottom: 7px;
+    margin-left: 15px;
+    color:black;
+    text-align: left;
+    background-repeat:repeat;
+    font-size: 16px;
 }
 
 /* Stil for visning av filmer i hovedvindu */
 .hovedvindu_filmer
 {
-	grid-column: 2/4;
-	border-radius: 25px; /* Runde hjørner */
-	min-height: 500px;
-	padding: 15px;
-	margin-top: 15px;
-	margin-bottom: 7px;
-	margin-left: 15px;
-	text-align: left;
-	float: start;
+    grid-column: 2/4;
+    border-radius: 25px; /* Runde hjørner */
+    min-height: 500px;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 7px;
+    margin-left: 15px;
+    text-align: left;
+    float: start;
 }
 
 .hovedvindu_filmer1
 {
-	grid-column: 4/6;
-	border-radius: 25px; /* Runde hjørner */
-	min-height: 500px;
-	padding: 15px;
-	margin-top: 10px;
-	margin-bottom: 7px;
-	text-align: left;
-	float: start;
+    grid-column: 4/6;
+    border-radius: 25px; /* Runde hjørner */
+    min-height: 500px;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    text-align: left;
+    float: start;
 }
 
 /* Stil for footer */
 .footer
 {
-	width: 100%;
-	border-radius: 25px; /* Runde hjørner */
-	text-align: center;
-	word-spacing: 10px;
-	background-image: linear-gradient(to right, lightblue, #33b5e5);
-	bottom: 0;
-	padding: 5px;
-	margin-top: 10px;
-	margin-bottom: 7px;
-	margin-left: 1px;
-	z-index: -1; /* Gjør at den ligger bak */
-	position: fixed;
-	opacity: 0.90;
-	font-size: 10px;
+    width: 100%;
+    border-radius: 25px; /* Runde hjørner */
+    text-align: center;
+    word-spacing: 10px;
+    background-image: linear-gradient(to right, lightblue, #33b5e5);
+    bottom: 0;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    margin-left: 1px;
+    z-index: -1; /* Gjør at den ligger bak */
+    position: fixed;
+    opacity: 0.90;
+    font-size: 10px;
 }
 
 embed
 {
-	border-radius: 25px; /* Runde hjørner */
-	background-image: linear-gradient(to right, lightblue, #33b5e5);
-	height: 75%;
-	width: 100%;
-	overflow: hidden;
+    border-radius: 25px; /* Runde hjørner */
+    background-image: linear-gradient(to right, lightblue, #33b5e5);
+    height: 75%;
+    width: 100%;
+    overflow: hidden;
 }
 
 /* Stil for lister */
 li
 {
-	border-radius: 25px; /* Runde hjørner */
-	padding: 5px;
-	margin: 7px;
-	background-image: linear-gradient(to right, lightblue, #33b5e5);
+    border-radius: 25px; /* Runde hjørner */
+    padding: 5px;
+    margin: 7px;
+    background-image: linear-gradient(to right, lightblue, #33b5e5);
 }
 
 /* Stil for ordnet liste */
 ol
 {
-	list-style-position: inside;
-	border-radius: 25px; /* Runde hjørner */
-	padding: 5px;
-	margin-bottom: 7px;
-	background-image: linear-gradient(to right, lightblue, #33b5e5);
+    list-style-position: inside;
+    border-radius: 25px; /* Runde hjørner */
+    padding: 5px;
+    margin-bottom: 7px;
+    background-image: linear-gradient(to right, lightblue, #33b5e5);
 }
 
 /* Stil for uordnet liste */
 ul
 {
-	border-radius: 25px; /* Runde hjørner */
-	padding: 5px;
-	margin-bottom: 7px;
-	margin-left: 20px;
-	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-	background-image: linear-gradient(to right, rgb(220, 228, 230), #33b5e5);
+    border-radius: 25px; /* Runde hjørner */
+    padding: 5px;
+    margin-bottom: 7px;
+    margin-left: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    background-image: linear-gradient(to right, rgb(220, 228, 230), #33b5e5);
 }
 
 /* Unvisited link */
 a:link
 {
-	color:purple;
+    color:purple;
 }
 
 /* Visited link */
 a:visited
 {
-	color: green;
+    color: green;
 }
 
 /* Mouse over link */
 a:hover
 {
-	color: hotpink;
+    color: hotpink;
 }
 
 /* Selected link */
 a:active
 {
-	color: blue;
+    color: blue;
 }
