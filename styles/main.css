@@ -324,26 +324,8 @@ ul
     background-image: linear-gradient(to right, rgb(220, 228, 230), #33b5e5);
 }
 
-/* Unvisited link */
-a:link
-{
-    color:purple;
-}
-
-/* Visited link */
-a:visited
-{
-    color: green;
-}
-
-/* Mouse over link */
-a:hover
-{
-    color: hotpink;
-}
-
-/* Selected link */
-a:active
-{
-    color: blue;
-}
+/* Stil for linker */
+a:link { color:purple; }
+a:visited { color: green; }
+a:hover { color: hotpink; }
+a:active { color: blue; }

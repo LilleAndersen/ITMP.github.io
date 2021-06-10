@@ -1,26 +1,30 @@
-
-.Bildekarusell /* Navnet på classen */
+.Bildekarusell
 {
-animation-name: example; /* Navnet på animasjonen*/
-animation-duration: 20s; /* Hvor lenge skal den vare, før den gjentar seg selv */
-animation-iteration-count: infinite; /* Hvor mange ganger skal den gjentas? - Her uendelig */
-grid-column: 2/5; /* Hvor mange grid kolonner som skal brukes */
-min-height: 300px; /* Minimumshøyde på classen */
-border-radius: 25px; /*Avrunnede hjørner */
-margin-left: 15px; /* Hvor langt fra kanten classen skal være*/
+    animation-name: example; /* Navn på animasjon */
+    animation-duration: 20s; /* Varighet på animasjon */
+    animation-iteration-count: infinite; /* Hvor mange ganger animasjon gjentas */
+    grid-column: 2/5; /* Plassering i grid */
+    min-height: 300px;
+    border-radius: 25px; /*Runde hjørner */
+    margin-left: 15px; /* Avstand fra kant */
 }
 
-.Bildekarusell:hover /* Hva skal skej når en har musepekeren over animasjonen (classen) */
+/* Når musepeker er over animasjon */
+.Bildekarusell:hover
 {
-width: 1200px; /* Ny bredde */
-height: 700px; /* Ny høyde */
+    width: 1200px;
+    height: 700px;
 }
 
-@keyframes example /* nøkkelbilder/keyframes som skal brukes i animasjonen ved navn example */ 
+/* Keyframes for animasjon */
+@keyframes example
 {
-20%   {background-image: url(../assets/dreams.png);}
-50%  {background-image: url(../assets/fjell.png);}
-75%   {background-image: url(../assets/smoke.png);}
-100%  {background-image: url(../assets/læringsgropen.png);}
+    20%
+    {background-image: url(../assets/dreams.png);}
+    50%
+    {background-image: url(../assets/fjell.png);}
+    75%
+    {background-image: url(../assets/smoke.png);}
+    100%
+    {background-image: url(../assets/læringsgropen.png);}
 }
-
