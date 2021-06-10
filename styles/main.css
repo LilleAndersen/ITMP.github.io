@@ -85,7 +85,6 @@ h1
     animation-direction: alternate-reverse;
 }
 
-/* Bevegelse i animasjon for h1 tag */
 /* Animasjon for h1 tag */
 @keyframes mymove
 {
